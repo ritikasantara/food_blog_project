@@ -1,0 +1,349 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+
+    margin-bottom: 20px;
+
+}
+
+/* navigation bar */
+
+
+nav{
+
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+    font-size: 15px;
+    clear: both;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+}
+
+nav li{
+
+    list-style-type: none;
+    float:left;
+    
+}
+
+nav a{
+
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+nav li a:hover{
+  
+  background-color: rgba(200,200,200,0.5);
+
+}
+
+ .active{
+  
+  background-color: rgba(200,200,200,0.5);
+
+}
+
+
+/* search input box */
+
+#search_input{
+    background-color: transparent;
+    padding: 10px 15px;
+    height: 20px;
+    width: 160px;
+    color: #CCC;
+    float: right;
+    margin-top: 4px;
+    margin-right: 40px;
+    border-radius: 50px;
+    border: 1px solid #87cefa;
+}
+
+#search_input:focus {
+
+  outline: none;
+
+}
+
+
+#search{
+
+    position: absolute;
+    right: 60px;
+    color: #fff;
+    margin-top: 15px;
+
+}
+
+/* site name */
+
+#sitename{
+
+    font-size: 70px;
+    border: 9px solid rgba(200,200,200,0.6);
+    padding: 20px 30px;
+    position: absolute;
+    float: right;
+    right: 200px;
+    top: 230px;
+    color: rgba(200,200,200,0.8);
+    border-radius: 6px;
+ 
+
+}
+/* sections */
+
+
+.sect{
+
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+       transition: all 2s ease-in-out;
+     
+    
+    
+    
+}
+
+.title{
+
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 3px solid rgba(105,105,105,0.7);
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #696969;
+
+}
+
+.one{
+
+ 
+    background-image: url(../images/landing_image.jpg);
+
+}
+
+.two{
+
+    background-image: url(../images/maincourse.jpg);
+
+}
+
+.three{
+
+    background-image: url(../images/starter.jpg);
+
+}
+
+.four{
+
+    background-image: url(../images/snacks.jpg);
+
+}
+
+.five{
+
+    background-image: url(../images/desserts.jpg);
+
+}
+
+.six{
+
+    background-image: url(../images/beverages.jpg);
+
+}
+
+
+.seven{
+
+    background-image: url(../images/popular.jpg);
+
+}
+
+/* The footer */
+
+footer{
+
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+   
+
+}
+
+.padd{
+
+   padding: 30px 320px 0px 320px;
+   
+}
+
+.col-1{
+
+    float: left;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+   
+}
+
+.icons{
+
+    clear: both;
+    
+}
+
+.col-1 a{
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.col-1 a:hover{
+
+    color: rgba(200,200,200,0.9);
+
+}
+
+.col-2{
+
+   
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    float: right;
+    
+
+}
+
+#newsletter_input{
+
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    height: 20px;
+    width: 180px;
+    color: #CCC;
+    border-radius: 2px;
+    margin-top: 10px;
+
+}
+
+#submit_input{
+
+    background-color: #00bfff;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+#submit_input:hover{
+
+    background-color: #87cefa;
+
+}
+
+.bottom{
+
+    clear: both;
+   
+
+}
+
+.bottom span{
+
+   margin-left: 45%;
+   font-size: 12px
+
+}
+
+.bottom a{
+
+    text-decoration: none;
+    color: #fff;
+    
+
+}
+
+.bottom a:hover{
+
+    color: #ccc;
+
+}
+
+/* Blog posts */
+
+
+.blogs{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: -30px;
+    position: relative;
+    top: 250px;
+}
+
+.blog1, .blog2, .blog3, .blog4{
+
+   width: 20%;
+   height: 300px;
+   background-color: #fff;
+   border-radius: 3px;
+   float: left;
+   margin-right: 30px;
+
+
+}
+
+.tip{
+
+    margin: 340px auto;
+    width: 70%;
+    height: 150px;
+    background-color: #696969;
+    opacity: 0.5;
+    border-radius: 3px;
+
+}
+
+
+
