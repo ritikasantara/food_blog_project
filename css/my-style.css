@@ -122,6 +122,7 @@ nav li a:hover{
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
+    clear: both;
     -webkit-transition: all 2s ease-in-out;
     -moz-transition: all 2s ease-in-out;
     -o-transition: all 2s ease-in-out;
@@ -333,13 +334,23 @@ footer{
 .recipes{
 
    width: 20%;
-   height: 370px;
+   height: 400px;
    background-color: #fff;
    border-radius: 3px;
    float: left;
    margin-right: 30px;
    position: relative;
+   clear: both;
 
+
+}
+
+#post_date{
+   
+   font-family: 'Open Sans Condensed', sans-serif;
+   margin-left: 20px;
+   font-size: 18px;
+   color: #051a2f;
 
 }
 
@@ -376,7 +387,7 @@ footer{
 
 }
 
-.blog1{position: relative;}
+
 
 .recipes div{
 
@@ -416,6 +427,58 @@ footer{
 
     text-decoration: none;
     color: #051a2f;
+
+}
+
+/* Articles */
+
+#tamarind_article #title1_article{
+
+    text-align: center;
+    color: #051a2f;
+    font-size: 23px;
+    font-family: 'Gentium Basic', serif;
+    margin-top: 30px;
+
+}
+
+#tamarind_article #title2_article{
+    
+    color: #696969;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    margin-top: 20px;
+
+}
+
+#tamarind_article img{
+
+    float: left;
+    margin-left: 20px;
+
+}
+
+#tamarind_article #content{
+
+    color: #051a2f;
+    font-size: 17px;
+    font-family: 'Gentim Basic',serif;
+    
+    
+}
+
+#tamarind_article #content #readmore{
+
+
+    width: 60px;
+    height: 20px;
+    background-color: #ccc;
+    opacity: 0.6;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 15px;
+
 
 }
 
