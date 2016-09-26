@@ -117,7 +117,7 @@ nav li a:hover{
 
 .sect{
 
-    height: 900px;
+    height: 750px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -354,7 +354,7 @@ footer{
 
 }
 
-.tip{
+/*.tip{
 
     margin: 340px auto;
     width: 70%;
@@ -363,7 +363,7 @@ footer{
     opacity: 0.5;
     border-radius: 3px;
 
-}
+}*/
 
 #recipe_title{
 
@@ -404,6 +404,7 @@ footer{
 
     font-size: 16px;
     margin-top: 20px;
+   
     
 }
 
@@ -432,7 +433,12 @@ footer{
 
 /* Articles */
 
-#tamarind_article #title1_article{
+#post_article{
+
+    height: 570px;
+}
+
+#post_article #title1_article{
 
     text-align: center;
     color: #051a2f;
@@ -442,33 +448,47 @@ footer{
 
 }
 
-#tamarind_article #title2_article{
+#post_article #article_date{
+
+    color: #696969;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Gentium Basic', serif;
+    margin-top: 10px;
+
+}
+
+#post_article #title2_article{
     
     color: #696969;
     font-size: 22px;
     text-align: center;
     font-family: 'Italianno', cursive;
-    margin-top: 20px;
+    margin-top: 0px;
 
 }
 
-#tamarind_article img{
+#post_article img{
 
-    float: left;
-    margin-left: 20px;
-
+    
+    display: block;
+    margin: 30px auto;
 }
 
-#tamarind_article #content{
+#post_article #content{
 
-    color: #051a2f;
+    color: #05132f;
     font-size: 17px;
-    font-family: 'Gentim Basic',serif;
-    
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+  
+  
     
 }
 
-#tamarind_article #content #readmore{
+#post_article #content #readmore_article a{
 
 
     width: 60px;
@@ -477,7 +497,11 @@ footer{
     opacity: 0.6;
     border-radius: 3px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
+    font-family: 'Cardo', serif;
+    text-decoration: none;
+    color:#051a2f;
+    margin-left: 20px;
 
 
 }
