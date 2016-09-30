@@ -416,7 +416,6 @@ footer{
     background-color: #000;
     opacity: 0.8;
     color: #fff;
-    position: fixed;
     bottom: 0;
     width: 100%;
     z-index: -1;
