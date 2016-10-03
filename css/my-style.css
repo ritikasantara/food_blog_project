@@ -165,6 +165,7 @@ nav li a:hover{
     background-image: url(../images/landing_image.jpg);
 
 
+
 }
 
 .two{
@@ -284,6 +285,8 @@ nav li a:hover{
 
 }
 
+
+
 .recipes div p{
 
     font-size: 16px;
@@ -317,14 +320,14 @@ nav li a:hover{
 
 /* Articles */
 
-#post_article{
+.post_article{
 
-    height: 570px;
+    height: 620px;
 
 }
 
 
-#post_article #title1_article{
+.post_article #title1_article{
 
     text-align: center;
     color: #051a2f;
@@ -334,7 +337,7 @@ nav li a:hover{
 
 }
 
-#post_article #article_date{
+.post_article #article_date{
 
     color: #696969;
     font-size: 15px;
@@ -344,17 +347,23 @@ nav li a:hover{
 
 }
 
-#post_article #title2_article{
+.post_article #title2_article{
     
     color: #696969;
-    font-size: 22px;
+    font-size: 29px;
     text-align: center;
     font-family: 'Italianno', cursive;
     margin-top: 0px;
 
 }
 
-#post_article img{
+.height_adjust{
+
+    height: 500px;
+
+}
+
+.post_article img{
 
     
     display: block;
@@ -362,7 +371,7 @@ nav li a:hover{
     box-shadow: 1px 1px 7px 0px #ccc;
 }
 
-#post_article #content{
+.post_article #content{
 
     color: #05132f;
     font-size: 17px;
@@ -375,7 +384,7 @@ nav li a:hover{
     
 }
 
-#post_article #content #readmore_article a{
+.post_article #content #readmore_article a{
 
 
     width: 60px;
