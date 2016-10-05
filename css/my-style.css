@@ -80,14 +80,16 @@ nav li a:hover{
     padding: 10px 15px;
     height: 20px;
     width: 160px;
-    color: #CCC;
+    color: #ccc;
     float: right;
     margin-top: 4px;
     margin-right: 40px;
     border-radius: 50px;
-    border: 1px solid #87cefa;
+    border: 1px solid #fbfaa5;
 
 }
+
+
 
 #search_input:focus {
 
@@ -100,7 +102,7 @@ nav li a:hover{
 
     position: absolute;
     right: 60px;
-    color: #fff;
+    color: #ccc;
     margin-top: 15px;
 
 }
@@ -155,7 +157,7 @@ nav li a:hover{
     border: 3px solid rgba(105,105,105,0.7);
     border-radius: 3px;
     padding: 10px 20px;
-    color: #696969;
+    color: #7b7b7b;
 
 }
 
@@ -234,7 +236,7 @@ nav li a:hover{
    margin-right: 30px;
    position: relative;
    clear: both;
-   box-shadow: 1px 1px 6px 0px #8e8e8e;
+   box-shadow: 1px 1px 6px 0px #817a7a;
 
 
 }
@@ -369,6 +371,7 @@ nav li a:hover{
     display: block;
     margin: 30px auto;
     box-shadow: 1px 1px 7px 0px #ccc;
+    
 }
 
 .post_article #content{
@@ -473,6 +476,7 @@ footer{
     position: relative;
     top: -20px;
     float: right;
+    right: -70px;
     
 
 }
@@ -524,8 +528,6 @@ footer{
     margin-top: 20px;
     margin-left: 10px;
     border-radius: 2px;
-    overflow: hidden;
-    outline: none;
     cursor: pointer;
 
 
@@ -533,7 +535,7 @@ footer{
 
 #submit_input:hover{
 
-    background-color: #0000ff;
+    background-color: #87ceeb;
 
 }
 
@@ -546,7 +548,7 @@ footer{
 
 .bottom span{
 
-   margin-left: 45.5%;
+   margin-left: calc(50% - 5em);
    font-size: 12px;
    display: inline-block;
 
